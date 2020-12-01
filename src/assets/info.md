@@ -1,0 +1,1 @@
+Here are all media assets like fonts, images ect. are saved

@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <div>
+        <h1>Hello World</h1>
+        <p>This is <a href="https://julianklummer.me">Julian-Kl</a>'s React Boilerplate</p>
+        <h2>Includes:</h2>
+        <ul>
+          <li>TypeScript</li>
+          <li>SASS</li>
+          <li>React Router</li>
+        </ul>
+        <h2>CSS Files</h2>
+        <ul>
+          <li>Normalize</li>
+        </ul>
+      </div>
+    </React.Fragment>
   );
 }
 

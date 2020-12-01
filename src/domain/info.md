@@ -1,0 +1,1 @@
+The folder structure here follows the react-router paths and components are not reused
